@@ -4,7 +4,7 @@ This repository contains the MATLAB code for the VTDL channel model and can be u
 
 VTDL is a tapped delay line channel model specifically designed for vehicular communications and, despite being simple to implement, its parameters have been derived from extensive simulations of geometry-based stochastic models, considering multiple traffic scenarios and road geometries. The parameters used to model the reflected power of multipath components have been derived by considering the bistatic radar cross sections of the reflecting vehicles. Unlike independent tapped delay line models, our model tracks the correlation between reflections, particularly in the Doppler domain. This aspect is particularly relevant when evaluating OTFS, since its performance can be overestimated if independent paths are assumed. For more details please refer to our paper (see below).
 
-*How to Use This Code*
+**How to Use This Code**
 
 In the **VTDL** folder, you will find all the files required to implement the channel model.
 
