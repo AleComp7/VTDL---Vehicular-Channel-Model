@@ -8,7 +8,8 @@ In the **VTDL** folder, you will find all the files required to implement the ch
 
 In the **example_usage** folder, you will instead find a ready-to-run example showing how the model can be used to compare the performance of OTFS and OFDM modulation schemes in vehicular scenarios.
 
-!! Important !!
+**Important**
+
 If you use this channel model for your research, please cite our work as:
 
 A. Compagnoni, R. Tuninato, C. F. Chiasserini, R. Garello, A. Nordio and E. Viterbo,
