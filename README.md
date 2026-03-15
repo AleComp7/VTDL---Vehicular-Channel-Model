@@ -8,7 +8,7 @@ VTDL is a tapped delay line channel model specifically designed for vehicular co
 
 In the **VTDL** folder, you will find all the files required to implement the channel model.
 
-In the **example_usage** folder, you will instead find a ready-to-run example showing how the model can be used to compare the performance of OTFS and OFDM modulation schemes in vehicular scenarios.
+In the **usage_example** folder, you will instead find a ready-to-run example showing how the model can be used to compare the performance of OTFS and OFDM modulation schemes in vehicular scenarios.
 
 **Important**
 
