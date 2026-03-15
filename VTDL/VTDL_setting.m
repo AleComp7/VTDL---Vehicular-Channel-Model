@@ -27,10 +27,10 @@ doi: 10.1109/TCOMM.2026.3663522
 function [VTDL] = VTDL_setting(f_c) % use the carrier frequency f_c (in Hz) as input
 
 % Set the following inputs according to your scenario
-mu_d = 80;           % Average distance between vehicles (meters)
+mu_d = 80;           % Average distance between vehicles (meters) lower distance implies higher traffic intensity
 N_L = 3;             % Number of lanes per travel direction
-DeltaTau = 4500;     % Delay Spread (nanoseconds) 
-v_max = 160;         % Maximum velocity (km/h) 
+DeltaTau = 4500;     % Delay Spread (nanoseconds). Here the delay spread is the difference between tha LoS delay and that of the last signal's replica.
+v_max = 160;         % Maximum vehicles' velocity (km/h) 
 
 %% Output
 % The output of this code is a strcture named VTDL, with fields:
