@@ -97,7 +97,7 @@ for iesn0 = 1:length(SNR_dB)
         L_set = unique(ell)';
         l_max = max(ell);
 
-        % Eq. (14) in [R1]
+        % Eq. (14) in [2]
         gs = Gen_discrete_time_channel(N, M, P, ell, k, h);
 
         length_CP_ZP = l_max; % CP length for OFDM / ZP length for OTFS
